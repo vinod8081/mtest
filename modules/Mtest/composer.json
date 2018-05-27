@@ -1,0 +1,23 @@
+{
+    "name": "Modules/mtest",
+    "description": "This is a test module which cover all the features of Laravel created by Vinod",
+    "keywords": ["mtest/laravel", "Laravel 5.2"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinod Pawar",
+            "email": "vpawar9091@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\Mtest\\": "modules/Mtest/src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.*",
+        "illuminate/support": "5.1.*"
+    }
+}
